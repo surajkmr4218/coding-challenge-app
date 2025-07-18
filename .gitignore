@@ -1,0 +1,22 @@
+# Specific environment files
+backend/.env
+frontend/.env
+
+# Catch all .env files in subdirectories
+**/.env
+**/.env.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+database.db
+backend/database.db
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
