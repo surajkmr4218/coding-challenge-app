@@ -21,7 +21,7 @@ def generate_challenge_with_ai(difficulty: str) -> Dict[str, Any]:
         "title": "The question title",
         "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
         "correct_answer_id": 0,
-        "explanation": "Detailed explanation of why the correct answer is right"
+        "explanation": "Detailed explanation of why that correct answer is right"
     }
 
     Make sure the options are plausible but with only one clearly correct answer.
